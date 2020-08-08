@@ -26,4 +26,4 @@ EBTS 4.1 *
 
 [DHS](https://www.dhs.gov/obim)
 
-DHS Automated Biometric Identification System (IDEN)T uses an XML based format that is not built on the EBTS standard. DHS IDENT is expected to be replaced by DHS Homeland Advanced Recognition Technology (HART) in 2020-2021.
+DHS Automated Biometric Identification System (IDENT) uses an XML based format that is not built on the EBTS standard. DHS IDENT is expected to be replaced by DHS Homeland Advanced Recognition Technology (HART) in 2020-2021.
