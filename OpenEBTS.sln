@@ -3,33 +3,32 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenEBTSNET", "src\OpenEBTSNET\OpenEBTSNET.csproj", "{B0E98C7D-349E-4F31-9AC6-75C6900B38E5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenEBTSNET", "src\OpenEBTSNET\OpenEBTSNET.csproj", "{B0E98C7D-349E-4F31-9AC6-75C6900B38E5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sample", "Sample", "{6D924BD7-8110-4177-A3B6-0AB312772D2E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenEBTSNETSample", "src\OpenEBTSNETSample\OpenEBTSNETSample.csproj", "{4CCA9672-D3CB-4851-AF21-72EDFF0595B0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|x64 = Debug|x64
-		Debug|x86 = Debug|x86
-		Release|x64 = Release|x64
-		Release|x86 = Release|x86
-		ReleaseSigCheck|x64 = ReleaseSigCheck|x64
-		ReleaseSigCheck|x86 = ReleaseSigCheck|x86
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B0E98C7D-349E-4F31-9AC6-75C6900B38E5}.Debug|x64.ActiveCfg = Debug|x64
-		{B0E98C7D-349E-4F31-9AC6-75C6900B38E5}.Debug|x64.Build.0 = Debug|x64
-		{B0E98C7D-349E-4F31-9AC6-75C6900B38E5}.Debug|x86.ActiveCfg = Debug|x86
-		{B0E98C7D-349E-4F31-9AC6-75C6900B38E5}.Debug|x86.Build.0 = Debug|x86
-		{B0E98C7D-349E-4F31-9AC6-75C6900B38E5}.Release|x64.ActiveCfg = Release|x64
-		{B0E98C7D-349E-4F31-9AC6-75C6900B38E5}.Release|x64.Build.0 = Release|x64
-		{B0E98C7D-349E-4F31-9AC6-75C6900B38E5}.Release|x86.ActiveCfg = Release|x86
-		{B0E98C7D-349E-4F31-9AC6-75C6900B38E5}.Release|x86.Build.0 = Release|x86
-		{B0E98C7D-349E-4F31-9AC6-75C6900B38E5}.ReleaseSigCheck|x64.ActiveCfg = ReleaseSigCheck|x64
-		{B0E98C7D-349E-4F31-9AC6-75C6900B38E5}.ReleaseSigCheck|x64.Build.0 = ReleaseSigCheck|x64
-		{B0E98C7D-349E-4F31-9AC6-75C6900B38E5}.ReleaseSigCheck|x86.ActiveCfg = ReleaseSigCheck|x86
-		{B0E98C7D-349E-4F31-9AC6-75C6900B38E5}.ReleaseSigCheck|x86.Build.0 = ReleaseSigCheck|x86
+		{B0E98C7D-349E-4F31-9AC6-75C6900B38E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0E98C7D-349E-4F31-9AC6-75C6900B38E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0E98C7D-349E-4F31-9AC6-75C6900B38E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0E98C7D-349E-4F31-9AC6-75C6900B38E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CCA9672-D3CB-4851-AF21-72EDFF0595B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CCA9672-D3CB-4851-AF21-72EDFF0595B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CCA9672-D3CB-4851-AF21-72EDFF0595B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CCA9672-D3CB-4851-AF21-72EDFF0595B0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4CCA9672-D3CB-4851-AF21-72EDFF0595B0} = {6D924BD7-8110-4177-A3B6-0AB312772D2E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B2CDDA50-48BA-462A-883F-059BFF54586A}

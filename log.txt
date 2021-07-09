@@ -1,0 +1,9 @@
+2021-07-09 19:45:36.121 -04:00 [INF] Loaded 2 extensions
+2021-07-09 19:45:36.260 -04:00 [INF] MSBuild registered from C:\Program Files\dotnet\sdk\5.0.301\
+2021-07-09 19:45:37.335 -04:00 [INF] Initializing upgrade step Select an entrypoint
+2021-07-09 19:45:37.339 -04:00 [INF] Setting entrypoint to only project in solution: C:\Development\OpenEbts\src\OpenEBTSNET\OpenEBTSNET.csproj
+2021-07-09 19:45:37.475 -04:00 [INF] Initializing upgrade step Finalize upgrade
+2021-07-09 19:45:39.583 -04:00 [INF] Applying upgrade step Finalize upgrade
+2021-07-09 19:45:39.585 -04:00 [INF] Upgrade step Finalize upgrade applied successfully
+2021-07-09 19:45:41.707 -04:00 [INF] Upgrade has completed. Please review any changes.
+2021-07-09 19:45:41.711 -04:00 [INF] No state to save

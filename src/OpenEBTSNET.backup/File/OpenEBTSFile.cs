@@ -2,15 +2,18 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Drawing;
+using System.Drawing.Drawing2D;
+using System.Drawing.Imaging;
 using System.IO;
+using System.Runtime.InteropServices;
 
 namespace OpenEBTSNet
 {
-    /// <summary>
-    /// NIST Transaction File wrapper that supports the ANSI/NIST-ITL standard, &quot;Data Format 
-    /// for the Interchange of Fingerprint, Facial &amp; Other Biometric Information&quot;.
-    /// </summary>
-    public class OpenEBTSFile : IDisposable
+	/// <summary>
+	/// NIST Transaction File wrapper that supports the ANSI/NIST-ITL standard, &quot;Data Format 
+	/// for the Interchange of Fingerprint, Facial &amp; Other Biometric Information&quot;.
+	/// </summary>
+	public class OpenEBTSFile : IDisposable
 	{
 		internal SafeHandleTransaction Handle = new SafeHandleTransaction(IntPtr.Zero);
 
